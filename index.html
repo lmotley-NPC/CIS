@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIS Student Resources</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .scroll-smooth { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 scroll-smooth">
+
+    <!-- Hero Section -->
+    <header class="bg-gradient-to-r from-blue-800 to-blue-600 text-white py-12">
+        <div class="container mx-auto px-4 md:px-8 text-center">
+            <h1 class="text-3xl md:text-5xl font-bold mb-4">Resources to Support Your Success</h1>
+            <p class="text-blue-100 text-lg md:text-xl max-w-2xl mx-auto">Everything you need to navigate the CIS program, plan your career, and succeed in your classes.</p>
+        </div>
+    </header>
+
+    <!-- Navigation (Sticky) -->
+    <nav class="bg-white shadow-md sticky top-0 z-50 overflow-x-auto">
+        <div class="container mx-auto px-4">
+            <ul class="flex space-x-6 py-4 text-sm font-medium text-gray-600 min-w-max">
+                <li><a href="#success" class="hover:text-blue-600 transition">Success Tips</a></li>
+                <li><a href="#cis-info" class="hover:text-blue-600 transition">Why CIS?</a></li>
+                <li><a href="#careers" class="hover:text-blue-600 transition">Career Pathways</a></li>
+                <li><a href="#resources" class="hover:text-blue-600 transition">Free Learning</a></li>
+                <li><a href="#support" class="hover:text-blue-600 transition">Advising & Support</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-4 md:px-8 py-12 space-y-16">
+
+        <!-- Section 1: Getting Started & Tips -->
+        <section id="success" class="grid md:grid-cols-2 gap-8">
+            <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-blue-500">
+                <div class="flex items-center mb-4">
+                    <i data-lucide="check-circle" class="text-blue-500 mr-2"></i>
+                    <h2 class="text-2xl font-bold text-gray-800">Tips for Asynchronous Success</h2>
+                </div>
+                <ul class="space-y-3 text-gray-600">
+                    <li class="flex items-start"><span class="mr-2 mt-1 text-blue-400">•</span> Check the course site at least 3-4 times per week</li>
+                    <li class="flex items-start"><span class="mr-2 mt-1 text-blue-400">•</span> Set a consistent study schedule (treat it like an in-person class)</li>
+                    <li class="flex items-start"><span class="mr-2 mt-1 text-blue-400">•</span> Don't wait until the last minute – start assignments early</li>
+                    <li class="flex items-start"><span class="mr-2 mt-1 text-blue-400">•</span> Ask questions! I'm here to help</li>
+                    <li class="flex items-start"><span class="mr-2 mt-1 text-blue-400">•</span> Connect with classmates through discussion boards</li>
+                </ul>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-teal-500">
+                <div class="flex items-center mb-4">
+                    <i data-lucide="laptop" class="text-teal-500 mr-2"></i>
+                    <h2 class="text-2xl font-bold text-gray-800">Technical Requirements</h2>
+                </div>
+                <ul class="space-y-3 text-gray-600">
+                    <li class="flex items-center"><i data-lucide="wifi" class="w-4 h-4 mr-2 text-gray-400"></i> Reliable internet connection</li>
+                    <li class="flex items-center"><i data-lucide="chrome" class="w-4 h-4 mr-2 text-gray-400"></i> Updated web browser (Chrome, Firefox, Edge)</li>
+                    <li class="flex items-center"><i data-lucide="file-text" class="w-4 h-4 mr-2 text-gray-400"></i> Microsoft Office or equivalent (Free via college)</li>
+                    <li class="flex items-center"><i data-lucide="video" class="w-4 h-4 mr-2 text-gray-400"></i> Webcam for occasional video introductions</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section 2: CIS Program Info -->
+        <section id="cis-info" class="bg-blue-50 rounded-2xl p-8">
+            <h2 class="text-3xl font-bold text-center mb-8 text-blue-900">Why Study Computer Information Systems?</h2>
+            
+            <div class="grid md:grid-cols-3 gap-6 mb-8">
+                <!-- Benefit 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm text-center">
+                    <div class="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i data-lucide="trending-up" class="text-green-600"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Strong Job Growth</h3>
+                    <p class="text-sm text-gray-600">BLS projects 10-15% growth in business and information systems occupations through 2031.</p>
+                </div>
+                <!-- Benefit 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm text-center">
+                    <div class="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i data-lucide="dollar-sign" class="text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Competitive Salaries</h3>
+                    <p class="text-sm text-gray-600">Most CIS careers start at $50,000-$75,000 with rapid growth potential.</p>
+                </div>
+                <!-- Benefit 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm text-center">
+                    <div class="bg-purple-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i data-lucide="briefcase" class="text-purple-600"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Career Flexibility</h3>
+                    <p class="text-sm text-gray-600">Work in healthcare, finance, retail, government, and bridge the gap between business & tech.</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg p-6 border border-blue-100">
+                <h3 class="font-bold text-xl mb-3 text-blue-800">Degree Options at Our College:</h3>
+                <ul class="list-disc list-inside space-y-2 text-gray-700">
+                    <li>Associate in Applied Science (A.A.S.) in Computer Information Systems</li>
+                    <li>Certificate programs in specific areas (Web Development, IT Support, etc.)</li>
+                    <li>Transfer pathways to 4-year programs</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section 3: Career Pathways -->
+        <section id="careers">
+            <h2 class="text-3xl font-bold mb-8 flex items-center">
+                <i data-lucide="map" class="mr-3 text-blue-600"></i> Career Pathways
+            </h2>
+            <p class="mb-8 text-gray-600">Here are just some of the careers our CIS program prepares you for in computer applications and information systems.</p>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Entry Level -->
+                <div class="bg-white rounded-xl shadow-lg border-t-4 border-green-400 overflow-hidden">
+                    <div class="bg-green-50 p-4">
+                        <h3 class="font-bold text-xl text-green-800">Entry-Level</h3>
+                        <p class="text-xs font-semibold text-green-600 uppercase tracking-wide">0-2 Years Experience</p>
+                    </div>
+                    <div class="p-6 space-y-4">
+                        <div>
+                            <p class="font-medium text-gray-800">Business Apps Specialist</p>
+                            <p class="text-sm text-gray-500">$45,000 - $55,000</p>
+                        </div>
+                        <div>
+                            <p class="font-medium text-gray-800">Junior Business Analyst</p>
+                            <p class="text-sm text-gray-500">$50,000 - $65,000</p>
+                        </div>
+                        <div>
+                            <p class="font-medium text-gray-800">IS Support Specialist</p>
+                            <p class="text-sm text-gray-500">$45,000 - $55,000</p>
+                        </div>
+                        <div>
+                            <p class="font-medium text-gray-800">Data Entry Analyst</p>
+                            <p class="text-sm text-gray-500">$40,000 - $50,000</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mid Level -->
+                <div class="bg-white rounded-xl shadow-lg border-t-4 border-blue-500 overflow-hidden transform md:-translate-y-4">
+                    <div class="bg-blue-50 p-4">
+                        <h3 class="font-bold text-xl text-blue-800">Mid-Level</h3>
+                        <p class="text-xs font-semibold text-blue-600 uppercase tracking-wide">2-5 Years Experience</p>
+                    </div>
+                    <div class="p-6 space-y-4">
+                        <div>
+                            <p class="font-medium text-gray-800">Business Analyst</p>
+                            <p class="text-sm text-gray-500">$70,000 - $90,000</p>
+                        </div>
+                        <div>
+                            <p class="font-medium text-gray-800">Information Systems Analyst</p>
+                            <p class="text-sm text-gray-500">$70,000 - $90,000</p>
+                        </div>
+                        <div>
+                            <p class="font-medium text-gray-800">Business Intelligence Analyst</p>
+                            <p class="text-sm text-gray-500">$75,000 - $95,000</p>
+                        </div>
+                        <div>
+                            <p class="font-medium text-gray-800">Database Analyst</p>
+                            <p class="text-sm text-gray-500">$75,000 - $95,000</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Advanced Level -->
+                <div class="bg-white rounded-xl shadow-lg border-t-4 border-purple-500 overflow-hidden">
+                    <div class="bg-purple-50 p-4">
+                        <h3 class="font-bold text-xl text-purple-800">Advanced</h3>
+                        <p class="text-xs font-semibold text-purple-600 uppercase tracking-wide">5+ Years Experience</p>
+                    </div>
+                    <div class="p-6 space-y-4">
+                        <div>
+                            <p class="font-medium text-gray-800">Information Systems Manager</p>
+                            <p class="text-sm text-gray-500">$90,000 - $120,000</p>
+                        </div>
+                        <div>
+                            <p class="font-medium text-gray-800">IT Business Analyst</p>
+                            <p class="text-sm text-gray-500">$95,000 - $125,000</p>
+                        </div>
+                        <div>
+                            <p class="font-medium text-gray-800">Systems Project Manager</p>
+                            <p class="text-sm text-gray-500">$90,000 - $120,000</p>
+                        </div>
+                        <div>
+                            <p class="font-medium text-gray-800">Information Systems Director</p>
+                            <p class="text-sm text-gray-500">$100,000 - $140,000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Free Learning Resources -->
+        <section id="resources" class="bg-gray-100 rounded-2xl p-8">
+            <h2 class="text-3xl font-bold mb-8 text-gray-800">Free Learning Resources</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <!-- Coding -->
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <h3 class="font-bold text-lg mb-3 flex items-center text-blue-600">
+                        <i data-lucide="code" class="w-5 h-5 mr-2"></i> Coding & Web Dev
+                    </h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="https://www.freecodecamp.org" target="_blank" class="hover:underline text-gray-700 hover:text-blue-600">FreeCodeCamp.org</a></li>
+                        <li><a href="https://www.codecademy.com" target="_blank" class="hover:underline text-gray-700 hover:text-blue-600">Codecademy</a></li>
+                        <li><a href="https://www.w3schools.com" target="_blank" class="hover:underline text-gray-700 hover:text-blue-600">W3Schools Reference</a></li>
+                        <li><a href="https://education.github.com/pack" target="_blank" class="hover:underline text-gray-700 hover:text-blue-600">GitHub Student Pack</a></li>
+                    </ul>
+                </div>
+
+                <!-- Certs -->
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <h3 class="font-bold text-lg mb-3 flex items-center text-blue-600">
+                        <i data-lucide="award" class="w-5 h-5 mr-2"></i> Certifications to Consider
+                    </h3>
+                    <ul class="space-y-2 text-sm text-gray-700">
+                        <li>Microsoft Office Specialist (MOS)</li>
+                        <li>Microsoft Certified: Power Platform</li>
+                        <li>CompTIA A+ (IT Fundamentals)</li>
+                        <li>Google Data Analytics Certificate</li>
+                        <li>Salesforce Administrator</li>
+                    </ul>
+                </div>
+
+                <!-- Exploration -->
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <h3 class="font-bold text-lg mb-3 flex items-center text-blue-600">
+                        <i data-lucide="compass" class="w-5 h-5 mr-2"></i> Career Exploration
+                    </h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="https://www.onetonline.org/" target="_blank" class="hover:underline text-gray-700 hover:text-blue-600">O*NET Online</a></li>
+                        <li><a href="https://www.bls.gov/" target="_blank" class="hover:underline text-gray-700 hover:text-blue-600">Bureau of Labor Statistics</a></li>
+                        <li><a href="https://www.linkedin.com/learning/" target="_blank" class="hover:underline text-gray-700 hover:text-blue-600">LinkedIn Learning</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Section 5: Advising & Support -->
+        <section id="support">
+            <h2 class="text-3xl font-bold mb-8 text-center">Advising & Support</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Card 1 -->
+                <div class="text-center p-6 border rounded-xl hover:shadow-md transition">
+                    <i data-lucide="users" class="mx-auto text-blue-500 mb-3 w-8 h-8"></i>
+                    <h3 class="font-bold mb-2">Advising</h3>
+                    <p class="text-sm text-gray-600">Schedule an appointment to discuss your goals and create a plan.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="text-center p-6 border rounded-xl hover:shadow-md transition">
+                    <i data-lucide="book-open" class="mx-auto text-teal-500 mb-3 w-8 h-8"></i>
+                    <h3 class="font-bold mb-2">Academic Support</h3>
+                    <p class="text-sm text-gray-600">Tutoring, Writing Center, and Library Research assistance.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="text-center p-6 border rounded-xl hover:shadow-md transition">
+                    <i data-lucide="monitor-x" class="mx-auto text-red-400 mb-3 w-8 h-8"></i>
+                    <h3 class="font-bold mb-2">Tech Issues?</h3>
+                    <p class="text-sm text-gray-600">Contact the college IT Help Desk for immediate assistance.</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="text-center p-6 border rounded-xl hover:shadow-md transition">
+                    <i data-lucide="graduation-cap" class="mx-auto text-yellow-500 mb-3 w-8 h-8"></i>
+                    <h3 class="font-bold mb-2">Financial Aid</h3>
+                    <p class="text-sm text-gray-600">Check the website for CIS-specific scholarship opportunities.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-800 text-gray-300 py-8 mt-12">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; Computer Information Systems Department</p>
+        </div>
+    </footer>
+
+    <!-- Initialize Icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
